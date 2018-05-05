@@ -21,6 +21,8 @@ public class playerController : MonoBehaviour {
         if(!thePlayer)
         {
             thePlayer = true;
+            //keep the object that this script is connected to
+            //will put it at the same x and y position between worlds
             DontDestroyOnLoad(transform.gameObject);
         }
         else

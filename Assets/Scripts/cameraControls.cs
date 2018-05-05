@@ -8,11 +8,24 @@ public class cameraControls : MonoBehaviour
     public GameObject target;
     private Vector3 targetposition;
     public float cameraSpeed;
+    public static bool theCamera;
 
 	// Use this for initialization
 	void Start ()
     {
         DontDestroyOnLoad(transform.gameObject);
+
+        if (!theCamera)
+        {
+            theCamera = true;
+            //keep the object that this script is connected to
+            //will put it at the same x and y position between worlds
+            DontDestroyOnLoad(transform.gameObject);
+        }
+        else
+        {
+            Destroy(gameObject);
+        }
     }
 	
 	// Update is called once per frame
