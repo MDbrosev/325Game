@@ -21,12 +21,12 @@ public class playerController : MonoBehaviour {
 
         if (!thePlayer)
         {
-            thePlayer = true;
-            DontDestroyOnLoad(transform.gameObject);
+           // thePlayer = true;
+           // DontDestroyOnLoad(transform.gameObject);
         }
         else
         {
-            Destroy(gameObject);
+          //  Destroy(gameObject);
         }
 
         //Keeps unity from destroying player and camera location when going from scene to scene
