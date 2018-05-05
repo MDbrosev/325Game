@@ -13,6 +13,7 @@ public class playerController : MonoBehaviour {
     // Use this for initialization
     void Start()
     {
+        //Interface to control the Mecanim animation system.
         animator = GetComponent<Animator>();
         //Use Unitys build in feature for collision and we will use the rigid body to move the charachter instead
         //This gives teh player a box for collisions with other objects in the game
@@ -69,8 +70,8 @@ public class playerController : MonoBehaviour {
         //Accessing animator
         animator.SetFloat("axisX", Input.GetAxisRaw("Horizontal"));
         animator.SetFloat("axisY", Input.GetAxisRaw("Vertical"));
-        animator.SetBool("isMoving", playerMoving);
-        animator.SetFloat("facingX", lastMove.x);
-        animator.SetFloat("facingY", lastMove.y);
+        animator.SetBool("playerMoving", playerMoving);
+        animator.SetFloat("lastX", lastMove.x);
+        animator.SetFloat("lastY", lastMove.y);
     }
 }
