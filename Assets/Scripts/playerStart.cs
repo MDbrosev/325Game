@@ -2,13 +2,15 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class playerStart : MonoBehaviour {
+public class playerStart : MonoBehaviour
+{
     //loc of camera and player
     private playerController player;
     private cameraControls startPtCamera;
 
 	// Use this for initialization
-	void Start () {
+	void Start ()
+    {
         player = FindObjectOfType<playerController>();
         //move pos of player to start point
         player.transform.position = transform.position;
@@ -18,7 +20,8 @@ public class playerStart : MonoBehaviour {
     }
 	
 	// Update is called once per frame
-	void Update () {
+	void Update ()
+    {
 		
 	}
 }

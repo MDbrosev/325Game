@@ -2,7 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class playerController : MonoBehaviour {
+public class playerController : MonoBehaviour
+{
 
     public float moveSpeed;
     private Animator animator;
@@ -12,7 +13,8 @@ public class playerController : MonoBehaviour {
     private static bool thePlayer;
 
 	// Use this for initialization
-	void Start () {
+	void Start ()
+    {
         animator = GetComponent<Animator>();
         //Use Unitys build in feature for collision and we will use the rigid body to move the charachter instead
         //This gives teh player a box for collisions with other objects in the game
@@ -35,7 +37,8 @@ public class playerController : MonoBehaviour {
 	}
 	
 	// Update is called once per frame
-	void Update () {
+	void Update ()
+    {
         playerMoving = false;
 
 		if(Input.GetAxisRaw("Horizontal") > 0.5f || Input.GetAxisRaw("Horizontal") < -0.5f)

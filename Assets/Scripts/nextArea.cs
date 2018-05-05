@@ -13,6 +13,7 @@ public class nextArea : MonoBehaviour
         {
             //This line is used to load the different scenes
             Application.LoadLevel(level);
+            
         }
     }
     // Use this for initialization
