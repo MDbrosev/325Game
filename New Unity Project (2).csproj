@@ -295,6 +295,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\cameraControls.cs" />
+    <Compile Include="Assets\Scripts\damageEnemy.cs" />
     <Compile Include="Assets\Scripts\enemyController.cs" />
     <Compile Include="Assets\Scripts\nextArea.cs" />
     <Compile Include="Assets\Scripts\playerController.cs" />
