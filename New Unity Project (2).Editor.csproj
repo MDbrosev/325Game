@@ -318,6 +318,7 @@
     <None Include="Assets\Tiled2Unity\Imported\_ReadMe.txt" />
     <None Include="Assets\Tiled2Unity\Imported\gamemap1.tiled2unity.xml" />
     <None Include="Assets\Tiled2Unity\Imported\inHouse.tiled2unity.xml" />
+    <None Include="Assets\Tiled2Unity\Imported\outside.tiled2unity.xml" />
     <None Include="Assets\Tiled2Unity\Imported\sample_map.tiled2unity.xml" />
     <None Include="Assets\Tiled2Unity\License.txt" />
     <None Include="Assets\Tiled2Unity\Materials\_ReadMe.txt" />

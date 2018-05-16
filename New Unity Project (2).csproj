@@ -296,9 +296,11 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\cameraControls.cs" />
     <Compile Include="Assets\Scripts\damageEnemy.cs" />
+    <Compile Include="Assets\Scripts\damagePlayer.cs" />
     <Compile Include="Assets\Scripts\enemyController.cs" />
     <Compile Include="Assets\Scripts\nextArea.cs" />
     <Compile Include="Assets\Scripts\playerController.cs" />
+    <Compile Include="Assets\Scripts\playerHealth.cs" />
     <Compile Include="Assets\Scripts\playerStart.cs" />
     <Compile Include="Assets\Tiled2Unity\Scripts\Runtime\CircleObject.cs" />
     <Compile Include="Assets\Tiled2Unity\Scripts\Runtime\GameObjectExtensions.cs" />
@@ -323,6 +325,7 @@
     <None Include="Assets\Tiled2Unity\Imported\_ReadMe.txt" />
     <None Include="Assets\Tiled2Unity\Imported\gamemap1.tiled2unity.xml" />
     <None Include="Assets\Tiled2Unity\Imported\inHouse.tiled2unity.xml" />
+    <None Include="Assets\Tiled2Unity\Imported\outside.tiled2unity.xml" />
     <None Include="Assets\Tiled2Unity\Imported\sample_map.tiled2unity.xml" />
     <None Include="Assets\Tiled2Unity\License.txt" />
     <None Include="Assets\Tiled2Unity\Materials\_ReadMe.txt" />

@@ -11,3 +11,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/inHouse.unity
     guid: 48bd6fe20fc34ee40824c4a6a36e7adf
+  - enabled: 1
+    path: Assets/Scenes/outdoor2.unity
+    guid: f786d86b1c6b0144289d0b4ca24658f6

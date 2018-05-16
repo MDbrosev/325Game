@@ -66,7 +66,7 @@ public class enemyController : MonoBehaviour {
     //player and enemy have 2d collision boxes, will use OnCollisionEnter2D to recoginize the collison between the two
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.name == "Player")
+       /* if (collision.gameObject.name == "Player")
         {
             //dont want to destroy the player
             //Destroy(collision.gameObject);
@@ -75,6 +75,6 @@ public class enemyController : MonoBehaviour {
             collision.gameObject.SetActive(false);
             reload = true;
             player = collision.gameObject;
-        }
+        }*/
     }
 }
